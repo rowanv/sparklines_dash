@@ -24,7 +24,6 @@ e.g., on Ubuntu:
 ## on my machine
 
 fab deploy --host=rowan@sparklines-dash.rowanv.com
-scp ../config.yml rowan@188.166.1.249:~/sites/sparklines-dash.rowanv.com/source/
 
 
 ## Then on the actual server, within source for the website

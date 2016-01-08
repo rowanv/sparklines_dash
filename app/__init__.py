@@ -1,5 +1,4 @@
 from flask import Flask
-from flask.ext.bower import Bower
 from flask.ext.cache import Cache
 
 app = Flask(__name__, static_url_path='/static')
