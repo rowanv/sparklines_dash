@@ -10,6 +10,7 @@ import json
 def sparklines_stock_dash():
     return render_template('index.html')
 
+
 @app.route('/data/not_realtime/currency_rates_month/')
 def data_currency_rates_month_not_realtime():
     data = []
@@ -26,7 +27,8 @@ def data_currency_rates_month_not_realtime():
 def data_currency_rates_month():
     base = datetime.datetime.today()
     datetime_list = [base - datetime.timedelta(days=x) for x in range(0, 30)]
-    date_list = [datetime_obj.date().__str__() for datetime_obj in datetime_list]
+    date_list = [datetime_obj.date().__str__()
+                 for datetime_obj in datetime_list]
     url_list = []
 
     for date in date_list:
