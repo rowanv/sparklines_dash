@@ -1,5 +1,6 @@
 # sparklines_dash
 
+[![Build Status](https://travis-ci.org/rowanv/sparklines_dash.svg?branch=master)](https://travis-ci.org/rowanv/sparklines_dash)
 
 ## About This Project
 
