@@ -6,6 +6,8 @@
 
 A real-time dashboard for quickly visualizing tends in currency fluctuations for major currencies over the past month. Developed end-to-end to display metrics in real time. Extracts metrics from the ECB currency API, transforms data using Python's Pandas, visualizes sparklines using d3. Served using nginx and gunicorn via the Flask micro-framework.
 
+You can view this dashboard live [here][2].
+
 ## What Are Sparklines?
 
     A sparkline is a small intense, simple, word-sized graphic with typographic resolution.
@@ -19,3 +21,4 @@ A real-time dashboard for quickly visualizing tends in currency fluctuations for
 [Data Viz Talk - How to  make a dashboard with Tufte's sparklines][1]
 
 [1]:http://dataviztalk.blogspot.com/2016/01/how-to-make-dashboard-with-tuftes.html
+[2]:http://sparklines-dash.rowanv.com/
